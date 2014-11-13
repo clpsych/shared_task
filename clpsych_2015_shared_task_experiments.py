@@ -2,9 +2,9 @@
 A place to specify a lot of experiment-specific parameters so
 their imports can be somewhat modularized.
 """
-CODE_ROOT = './' #UPDATE to reflect your local setup
+CODE_ROOT = './' #UPDATE to reflect your local setup -- if using SGE you may need to fully specify the path
 
-DATA_ROOT = 'data/' #UPDATE to reflect your local setup
+DATA_ROOT = 'data/' #UPDATE to reflect your local setup -- if using SGE you may need to fully specify the path
 GENERIC_CONDITION_ROOT = DATA_ROOT+'anonymized_%s_tweets/'
 CONTROL_ROOT = GENERIC_CONDITION_ROOT % 'control'
 PTSD_ROOT = GENERIC_CONDITION_ROOT % 'ptsd'

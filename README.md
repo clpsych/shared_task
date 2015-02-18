@@ -35,7 +35,7 @@ The ranking files should be a csv file keyed with your institution (`JohnsHopkin
 
 The `score` column is optional, but will allow us to better make use of it in system combination. Bonus points (because it makes our job easier) if your scores reflect the probability your model thinks the Twitter user has the first condition in the comparison (e.g., in `PvD` higher scores indicate higher probability of `PTSD`).
 
-We will share our evaluation code in the shared task repository: https://github.com/clpsych/shared_task so you can test your output format. Similarly, we will include an example ranking csv file so the format is entirely clear. That repository is not yet complete, but we will send out an email notification when it is complete.
+We will share our evaluation code in the shared task repository: [github.com/clpsych/](https://github.com/clpsych/) shared_task so you can test your output format. Similarly, we will include an example ranking csv file so the format is entirely clear. That repository is not yet complete, but we will send out an email notification when it is complete.
 
 
 ##Evaluation
@@ -53,16 +53,18 @@ Our scoring scripts will make some easily interpretable plots, as well as some m
 - A `.tgz` of all these together is perfectly fine.
 
 ##Scores returned by March 20
-- Glen will reply to your mail with the resultant score files.
+- Your scores will be posted on the clpsych website and available for download, a link will be circulated to the page with all the downloads.
+- For anonymity, we will strip the institution name when posting the data. Our example above, `JohnsHopkins_WhimsicalRandomnessClassifier_3_PvD.csv` would be posted as `WhimsicalRandomnessClassifier_3_PvD_scores.csv`
 
-##Required in Glen's inbox by March 27
+
+##Required in the conference submssion site by March 27
 - Contributing authors from the institution.
 - A 2-8 page PDF description of the system (which we put through a light peer review process).
 
-##Notification of Changes by April 3
+##Notification of changes by April 3
 - We will lightly peer review the papers and may request some changes.
 
-##Required in Glen's inbox by April 10
+##Required in the conference submission site by April 10
 - Camera ready versions of the paper (PDF, in the format required by the workshop).
 
 If you have any questions, please don't hesitate to contact Glen: coppersmith--at--jhu--.--edu

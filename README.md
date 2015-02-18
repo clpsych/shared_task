@@ -18,7 +18,7 @@ Each system should indicate what resources were used in the creation of their mo
 
 The only __DISALLOWED__ data resource is the data distributed as part of the hackathon. The train/test splits for the shared task need to be respected, and some of the Twitter users included in the hackathon were removed, shuffled, or truncated. Whatever trained system that was used as part of the hackathon should be easily retrained on the designated training section here. 
 	
-The distributed test data has age- and gender-matched pairs of Twitter users (as the training data did), with enough noise and obfuscation to make it hard to exploit this fact. The Twitter users are not paired up, nor are they distributed together. Systems should rank order (and optionally score) each Twitter user in each condition, and submit those complete ranked lists. Our scoring scripts will remove all the distractor items, so the scores will only be computed on the age- and gender-matched users. Similarly, it's important that each system computes scores for all three conditions (Depression-v-Control, PTSD-v-Control and Depression-v-PTSD), to minimize the bias introduced by the data collection mechanisms. Systems that cannot successfully separate Depression and PTSD may be depending upon those artifacts to make their decisions rather than signals more deeply relevant to mental health. 
+The distributed test data has age- and gender-matched pairs of Twitter users (as the training data did), with enough noise and obfuscation to make it hard to exploit this fact (please don't try though). The Twitter users are not paired up, nor are they distributed together. Systems should rank order (and optionally score) each Twitter user in each condition, and submit those complete ranked lists. Our scoring scripts will remove all the distractor items, so the scores will only be computed on the age- and gender-matched users. Similarly, it's important that each system computes scores for all three conditions (Depression-v-Control, PTSD-v-Control and Depression-v-PTSD), to minimize the bias introduced by the data collection mechanisms. Systems that cannot successfully separate Depression and PTSD may be depending upon those artifacts to make their decisions rather than signals more deeply relevant to mental health. 
 
 The systems will be evaluated via ranked lists, in a format indicated below.
 Each system must create one ranked list for each condition (Depression-v-Control [DvC], PTSD-v-Control [PvC], and Depression-v-PTSD [DvP]). Each system may be submitted with up to 5 parameter settings (perhaps optimized to different criteria). Thus, for each system, we expect to see at least 3 and at most 15 score files (if you want to do more than this, contact me so we can discuss it).
@@ -48,21 +48,21 @@ Our scoring scripts will make some easily interpretable plots, as well as some m
 - This maintains accordance with Twitter's TOS and JHU's IRB requirements.
 - You have all the training data necessary already to build your systems, so the next few weeks should be used to have the system ready to produce the necessary ranking files.
 
-##Required in my inbox by March 13
+##Required in Glen's inbox by March 13
 - `Institution_SystemName_#_condition.csv` score files
 - A `.tgz` of all these together is perfectly fine.
 
 ##Scores returned by March 20
-- I will reply to your mail with the resultant score files.
+- Glen will reply to your mail with the resultant score files.
 
-##Required in my inbox by March 27
+##Required in Glen's inbox by March 27
 - Contributing authors from the institution.
 - A 2-8 page LaTeX description of the system (which we put through a light peer review process).
 
 ##Notification of Changes by April 3
 - We will lightly peer review the papers and may request some changes.
 
-##Required in my inbox by April 10
+##Required in Glen's inbox by April 10
 - Camera ready versions of the paper (LaTeX, in the format required by the workshop).
 
-If you have any questions, please don't hesitate to contact me: [you should have my email since I've been sending out all the links all this time]
+If you have any questions, please don't hesitate to contact Glen: coppersmith--at--jhu--.--edu

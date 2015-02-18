@@ -57,12 +57,12 @@ Our scoring scripts will make some easily interpretable plots, as well as some m
 
 ##Required in Glen's inbox by March 27
 - Contributing authors from the institution.
-- A 2-8 page LaTeX description of the system (which we put through a light peer review process).
+- A 2-8 page PDF description of the system (which we put through a light peer review process).
 
 ##Notification of Changes by April 3
 - We will lightly peer review the papers and may request some changes.
 
 ##Required in Glen's inbox by April 10
-- Camera ready versions of the paper (LaTeX, in the format required by the workshop).
+- Camera ready versions of the paper (PDF, in the format required by the workshop).
 
 If you have any questions, please don't hesitate to contact Glen: coppersmith--at--jhu--.--edu

@@ -53,7 +53,7 @@ Our scoring scripts will make some easily interpretable plots, as well as some m
 - A `.tgz` of all these together is perfectly fine.
 
 ##Scores returned by March 20
-- I will reply to your mail with the resultant score files by March 18.
+- I will reply to your mail with the resultant score files.
 
 ##Required in my inbox by March 27
 - Contributing authors from the institution.
